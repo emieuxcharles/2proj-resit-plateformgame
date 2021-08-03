@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.menu {
+    background: gray;
+}
+.menu ul {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+}
+#btn-signin {
+    position: absolute;
+    right: 0;
+    background: black;
+}
+#btn-signin a {
+    color: white;
+}
+
+.menu li {
+    list-style: none;
+    padding: 1em 3vw;
+}
+.menu a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.section-games {
+    height: 100vh;
+    max-width: 100vw;
+    background: burlywood;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2px;
+}
+
+#game1{
+    background: url(/images/lorem-ipsum-logo.jpeg);
+
+}
+#game2{
+    background: url(/images/lorem-ipsum-logo.jpeg);
+}
+#game3{
+    background: url(/images/lorem-ipsum-logo.jpeg);
+}
+#game4{
+    background: url(/images/lorem-ipsum-logo.jpeg);
+}
+#game5{
+    background: url(/images/lorem-ipsum-logo.jpeg);
+}
+#game6{
+    background: url(/images/lorem-ipsum-logo.jpeg);
+}
+#game7{
+    background: url(/images/lorem-ipsum-logo.jpeg);
+}
+#game8{
+    background: url(/images/lorem-ipsum-logo.jpeg);
+}
