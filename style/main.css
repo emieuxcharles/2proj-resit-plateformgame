@@ -79,5 +79,9 @@
 .sign-in-container {
     display: flex;
     flex-direction: column;
-    padding: 10vh 20vw;
+    padding: 10vh 30vw;
+}
+
+.sign-in-container input {
+    margin: 0 0 2em 0;
 }
