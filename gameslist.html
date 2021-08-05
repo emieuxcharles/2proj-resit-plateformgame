@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .box{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        margin: 200px auto 0;
+        background: url(https://toppng.com/uploads/preview/2d-game-character-11563233908ryhxnpodm5.png) center/cover;
+    }
+</style>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+$(document).keydown(function(e){
+    switch (e.which){
+    case 37:    //left arrow key
+        $(".box").finish().animate({
+            left: "-=50"
+        });
+        break;
+    case 38:    //up arrow key
+        $(".box").finish().animate({
+            top: "-=50"
+        });
+        break;
+    case 39:    //right arrow key
+        $(".box").finish().animate({
+            left: "+=50"
+        });
+        break;
+    case 40:    //bottom arrow key
+        $(".box").finish().animate({
+            top: "+=50"
+        });
+        break;
+    }
+});
+</script>
+
+<body>
+    <p><strong>Note:</strong> Click inside the viewport and press the arrow keys to move the box.</p>
+    <div class="box"></div>
+
+    
+</body>
+</html>
